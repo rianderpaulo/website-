@@ -1,0 +1,52 @@
+[
+  {
+    "name": "2V Aqua Water Refilling Station",
+    "desc": "This is the water refilling of san miguel.",
+    "lat": 8.358536, 
+    "lng": 124.864436,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TgJF0zGeCpxYGzpLIoyGhQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=304.53064&pitch=0&thumbfov=100"
+  },
+  {
+    "name": "G & M Water Surface Refilling Station",
+    "desc": "This is the water refilling of Sayre Hwy.",
+    "lat": 8.372324, 
+    "lng": 124.853815,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VVWoRLnkGi4gMFEHxIi4AQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=19.251373&pitch=0&thumbfov=100"
+  },
+  {
+    "name": "Dsd Water Refilling Station",
+    "desc": "This is the water refilling of Sayre Hwy.",
+    "lat": 8.367918, 
+    "lng": 124.866781,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dByUR6H-yO6C55ZCbUYsrw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=250.59203&pitch=0&thumbfov=100"
+  },
+  {
+    "name": "JAPH FUEL Refilling Station",
+    "desc": "This is the water refilling of Sayre Hwy.",
+    "lat":8.375316, 
+    "lng": 124.900563,
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx5QZV4FODBo1pbky8hnQZYLTqKK0qVLWfyrN874uwmetMApP4qcrRAwtoFfel5SjzMJYL8LhxMIfA5FxafOx2B8UIQfhDeCqIcT8C3Xo2nt7sRLZA8VrwbTmAHLloPuiqD6x9p=w408-h306-k-no"
+  },
+  {
+    "name": "TJ Water Refilling Station",
+    "desc": " This is the water refilling of batingtingan, alae mfb.",
+    "lat":8.414914, 
+    "lng":  124.811522,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=texAsEvHUKRpAB0htTn81g&cb_client=search.gws-prod.gps&w=408&h=240&yaw=113.94494&pitch=0&thumbfov=100"
+  },
+  {
+   "name": "LRJ Water Refilling Station",
+    "desc": " This is the water refilling of Lunocan.",
+    "lat":8.405282, 
+    "lng":  124.829181,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Wt-F8xA5fktDtTkTDtHw0Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=54.71245&pitch=0&thumbfov=100"
+  },
+  {
+   "name": "RYSAX Water Refilling Station",
+    "desc": " This is the water refilling of Lunocan.",
+    "lat":8.414967, 
+    "lng": 124.828589,
+    "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_R1VRZVEy_8EqFv_gPmqCw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=166.37555&pitch=0&thumbfov=100"
+  }
+]
+
