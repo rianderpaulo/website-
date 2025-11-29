@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Water Refilling Locator</title>
+    <title>Map - Travel Locator</title>
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
- <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <aside class="sidebar">
-        <h2>LOKO-MOCCO</h2>
+        <h2>DESTINOVA</h2>
         <nav>
-      <a href="home.html" class="active">Dashboard</a>
-      <a href="destination.html">Stations</a>
-      <a href="map.html">Map</a>
-      <a href="statistics.html">Statistics</a>
-      <a href="index.html">BACK</a>
+            <a href="home.html">Dashboard</a>
+            <a href="destination.html">Destinations</a>
+            <a href="map.html" class="active">Map</a>
+            <a href="index.html"> BACK</a>
         </nav>
     </aside>
 
     <main class="dashboard">
         <header>
-            <h1>Water Refilling Map</h1>
-            <p>Click the markers to view information and images of popular area.</p>
+            <h1>Manolo Fortich Refilling Stations</h1>
+            <p>Click the markers to view information and images of popular stations.</p>
         </header>
 
         <section class="map-container">
@@ -34,11 +34,11 @@
     </main>
 
     <script>
-        const map = L.map('map').setView([8.4012, 124.8747], 15);
+        const map = L.map('map').setView([8.367981, 124.866250], 15);
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
-
 
         fetch('data.json')
             .then(response => response.json())
@@ -46,14 +46,17 @@
                 spots.forEach(spot => {
                     const marker = L.marker([spot.lat, spot.lng]).addTo(map);
                     marker.bindPopup(`
-            <img src="${spot.image}" alt="${spot.name}">
-            <b>${spot.name}</b>
-            <p>${spot.desc}</p>
-          `);
+                        <div class="popup-wrapper">
+                            <img src="${spot.image}" class="popup-image">
+                            <h3>${spot.name}</h3>
+                            <p>${spot.desc}</p>
+                        </div>
+                    `);
                 });
             })
             .catch(error => console.error('Error loading data.json:', error));
     </script>
+
 </body>
 
 </html>
